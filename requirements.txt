@@ -1,0 +1,6 @@
+python=3.8
+pandas
+google-api-python-client
+oauth2client
+snowflake-connector-python
+snowflake-connector-python[pandas]

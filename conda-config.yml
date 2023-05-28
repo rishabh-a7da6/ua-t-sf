@@ -1,0 +1,14 @@
+name: ua-env
+channels: 
+  - default
+
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+    - pandas
+    - notebook
+    - google-api-python-client
+    - oauth2client
+    - snowflake-connector-python
+    - snowflake-connector-python[pandas]
